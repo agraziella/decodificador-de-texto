@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/aldo-2');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background:#f3f5fc;
+}
+
+/*HEADER*/
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:#f3f5fc;
+}
+.cabecalho{
+    box-shadow: 0px 3px 10px #c5c4c4;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 60px;
+}
+
+.cabecalho-titulo{
+    font-size: 50px;
+    text-transform: lowercase;
+    color: #0A3871;
+    font-family: Aldo, semibold;
+    position: absolute;
+    margin-left: 480px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.logo:hover{
+    background: #CCC;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/*BODY*/
+
+/*Main*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+
+.inserir-texto{
+    resize: none;
+    border: #f3f5fc 2px solid;
+    background: #f3f5fc;
+    font-size: 25px;    
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: Inter;
+    text-align: center;
+}
+
+.inserir-texto:hover{
+    border-color: #f3f5fc;
+}
+
+.inserir-texto:focus {
+    outline: none;
+}
+.regras{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.exclamacao{
+    position: relative;
+    margin-right: 8px;
+}
+span{
+    display: flex;
+    align-items: center;
+    width: 228px;
+    height: 18px;
+    text-align: center;
+    font-size: 0.7em;
+    color: #495057;
+    opacity: 0.8;
+    position: relative;
+}
+
+
+.img-searching {
+    height:350px;
+    width:350px;
+}
+
+.respostaText {
+    padding: 24px;
+    width: 100%;
+    height: 372px;
+    font-size: 32px;
+    color: #071A52;
+    background: none;
+    border: none;
+    resize: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.respostaText:disabled {
+    height: auto;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.respostaText:disabled {
+    height: auto;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.digitar-texto{
+    color: #495057;
+}
+
+.resultadoCriptografado {
+    height:150px;
+    height:250px;
+    margin:0px;
+}
+
+/*botões*/
+
+.button{
+    width: auto;
+    height: 48px;
+    font-family: Inter;
+    text-align: center;
+    gap: 20px;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+.button:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 0px 3px 10px #000;
+}
+
+.button .button3:active {
+    transform: scale(0.9);
+}
+
+.button:disabled {
+    display: none;
+}
+
+.buttons{
+    width: auto;
+    height: 100px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 0.5em 14px
+}
+
+.button1{
+    background:#0A3871;
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+}
+
+.button2, .button3, .reset{
+    background: #D8DFE8;
+    color: #0A3871;
+    font-weight: 400px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    border: #0A3871 solid 1px;
+    font-weight: bold;
+}
+
+.button3{
+    width: 500px;
+    height: 48px;
+    font-family: Inter;
+    text-align: center;
+    gap: 20px;
+    border-radius: 14px;
+    padding: 10px;    
+    margin-bottom: 42px;
+}
+
+.button3:hover{
+    transform: translate(-3px, -3px);
+    box-shadow: 0px 3px 10px #000;
+}
+
+.reset{
+    font-size: 14px;
+}
+
+#vermelho:hover{
+    box-shadow: 0px 3px 10px red;
+}
+
+/*FOOTER*/
+
+.footer{
+    margin-top: 100px;
+    box-shadow: 0px 3px 10px #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer p{
+    font-size: small;
+    color: #9c9a9a;
+    vertical-align: baseline;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footer-links{
+    padding: 10px 10px 10px 10px;
+    display: inline-flex;
+    justify-content: center;
+    
+}
+
+#linkedin{
+    margin-left: 10px;
+}
+
+#github{
+    margin-right: 10px;
+}
+
